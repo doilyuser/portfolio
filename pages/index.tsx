@@ -24,7 +24,7 @@ export default function Home() {
       className={`${courier.className}  transition duration-500 ${color} bg-black`}
     >
       <div className="flex w-screen h-screen justify-center items-center uppercase">
-        <div className="text-3xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl uppercase">
+        <div className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl uppercase">
           <div className="flex justify-between transition">
             <p>Louis</p>
             <p>Dyer</p>
