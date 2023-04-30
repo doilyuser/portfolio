@@ -1,5 +1,6 @@
 import { Courier_Prime } from 'next/font/google'
 import { useEffect, useState } from 'react'
+import Link from 'next/link'
 
 const courier = Courier_Prime({
   subsets: ['latin'],
@@ -21,7 +22,7 @@ export default function Home() {
 
   return (
     <main
-      className={`${courier.className}  transition duration-500 ${color} bg-black`}
+      className={`${courier.className} transition duration-500 ${color} bg-black`}
     >
       <div className="flex w-screen h-screen justify-center items-center uppercase">
         <div className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl uppercase">
@@ -80,14 +81,14 @@ export default function Home() {
               <p>Github</p>
             </a>
             <p>&nbsp;</p>
-            <a
+            <Link
               className="underline sm:no-underline transition hover:text-white hover:duration-500 hover:scale-110"
               onMouseEnter={hover}
               onMouseOut={unhover}
               href="/portfolio"
             >
               <p>Portfolio</p>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
