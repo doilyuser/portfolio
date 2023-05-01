@@ -1,5 +1,6 @@
 import { Courier_Prime } from 'next/font/google'
 import { useEffect, useState } from 'react'
+import Nav from './Nav'
 
 const courier = Courier_Prime({
   subsets: ['latin'],
@@ -23,6 +24,7 @@ export default function Portfolio() {
     <div
       className={`${courier.className} transition duration-500 ${color} bg-black`}
     >
+      <Nav />
       <div className="flex flex-col snap-y snap-mandatory h-screen overflow-x-hidden">
         <div className="snap-start shrink-0 grid h-screen place-items-center">
           <h1 className="uppercase text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl">
