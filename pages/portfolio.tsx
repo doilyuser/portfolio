@@ -1,9 +1,10 @@
 import { Courier_Prime } from 'next/font/google'
 import { useEffect, useState } from 'react'
-import { IoMdArrowDown } from "@react-icons/all-files/io/IoMdArrowDown";
-import Nav from './Icons/Nav'
-import PortfolioArticle from './Components/PortfolioArticle';
+import Nav from './Components/Nav'
 import PortfolioSplash from './Components/PortfolioSplash';
+import PortfolioArticle from './Components/PortfolioArticle';
+import PingpongArticle from './Components/PingpongArticle';
+import MoneyArticle from './Components/MoneyArticle';
 
 const courier = Courier_Prime({
   subsets: ['latin'],
@@ -31,6 +32,8 @@ export default function Portfolio() {
       <div className="flex flex-col snap-y snap-mandatory h-screen overflow-x-hidden">
         <PortfolioSplash />
         <PortfolioArticle />
+        <PingpongArticle />
+        <MoneyArticle />
       </div>
     </div>
   )
