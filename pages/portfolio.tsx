@@ -5,6 +5,7 @@ import PortfolioSplash from './Components/PortfolioSplash';
 import PortfolioArticle from './Components/PortfolioArticle';
 import PingpongArticle from './Components/PingpongArticle';
 import MoneyArticle from './Components/MoneyArticle';
+import OlderProjects from './Components/OlderProjects';
 
 const courier = Courier_Prime({
   subsets: ['latin'],
@@ -34,6 +35,7 @@ export default function Portfolio() {
         <PortfolioArticle />
         <PingpongArticle />
         <MoneyArticle />
+        <OlderProjects />
       </div>
     </div>
   )
