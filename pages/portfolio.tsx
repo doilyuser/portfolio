@@ -2,18 +2,8 @@ import { Courier_Prime } from 'next/font/google'
 import { useEffect, useState } from 'react'
 import { IoMdArrowDown } from "@react-icons/all-files/io/IoMdArrowDown";
 import Nav from './Icons/Nav'
-import React from './Icons/React'
-import ReactNative from './Icons/ReactNative'
-import Redux from './Icons/Redux'
-import Express from './Icons/Express'
-import PostgreSQL from './Icons/PostgreSQL'
-import Auth0 from './Icons/Auth0'
-import SQLite from './Icons/SQLite'
-import Tailwind from './Icons/Tailwind'
-import Next from './Icons/Next'
-import Expo from './Icons/Expo'
-import Firebase from './Icons/Firebase'
-import Vercel from './Icons/Vercel'
+import PortfolioArticle from './Components/PortfolioArticle';
+import PortfolioSplash from './Components/PortfolioSplash';
 
 const courier = Courier_Prime({
   subsets: ['latin'],
@@ -39,56 +29,8 @@ export default function Portfolio() {
     >
       <Nav />
       <div className="flex flex-col snap-y snap-mandatory h-screen overflow-x-hidden">
-      <div className="snap-start shrink-0 grid h-screen place-items-center">
-          <h1 className="uppercase text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl">
-            What&apos;s that? 
-          </h1>
-          <div>
-          <IoMdArrowDown className="animate-bounce h-10 sm:h-12 md:h-14 lg:h-16 xl:h-24 w-full"  />
-          </div>
-        </div>
-        <div className="snap-start shrink-0 grid h-screen place-items-center">
-          <h1 className="uppercase text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl">
-            Pingpong
-          </h1>
-          <p>
-            Title, Date, Description, Tech, Reflections
-          </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore molestiae quisquam adipisci velit laborum magni id. Vitae, odit excepturi aut, officiis odio corporis libero cum animi minus facilis numquam doloremque.
-          </p>
-          <div className='flex'>
-            <React />
-            <ReactNative />
-            <Redux />
-            <Express />
-            <PostgreSQL />
-            <Auth0 />
-            <SQLite />
-            <Tailwind />
-            <Next />
-            <Expo />
-            <Vercel />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat, vero sapiente suscipit veritatis error alias eligendi beatae dolor. Voluptatem placeat dolorum sint rerum eveniet dolore vitae unde esse eligendi.
-          </p>
-        </div>
-        <div className="snap-start shrink-0 grid h-screen place-items-center">
-          <h1 className="uppercase text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl">
-            Second part
-          </h1>
-        </div>
-        <div className="snap-start shrink-0 grid h-screen place-items-center">
-          <h1 className="uppercase text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl">
-            Third thing
-          </h1>
-        </div>
-        <div className="snap-start shrink-0 grid h-screen place-items-center">
-          <h1 className="uppercase text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl">
-            Section D
-          </h1>
-        </div>
+        <PortfolioSplash />
+        <PortfolioArticle />
       </div>
     </div>
   )
