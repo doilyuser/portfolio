@@ -7,13 +7,13 @@ export default function Nav() {
     return (
         <div className="flex flex-wrap absolute p-2">
             <Link href="/">
-                <TiHome size="3rem"/>
+                <TiHome className="h-10 w-10"/>
             </Link>
             <a className="px-1" href="tel:+64272545605">
-                <TiPhone size="3rem"/>
+                <TiPhone className="h-10 w-10"/>
             </a>
             <a href="mailto:louisalexanderdyer@gmail.com">
-                <MdEmail size="3rem"/>
+                <MdEmail className="h-10 w-10"/>
             </a>
         </div>
     )

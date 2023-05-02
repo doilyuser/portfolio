@@ -43,7 +43,7 @@ export default function Portfolio() {
             What&apos;s that? 
           </h1>
           <div>
-          <IoMdArrowDown className="animate-bounce" size="5rem" />
+          <IoMdArrowDown className="animate-bounce h-10 w-full"  />
           </div>
         </div>
         <div className="snap-start shrink-0 grid h-screen place-items-center">

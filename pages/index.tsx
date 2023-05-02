@@ -39,7 +39,7 @@ export default function Home() {
             <a
               onMouseEnter={hover}
               onMouseOut={unhover}
-              className="hover:animate-pulse underline sm:no-underline flex justify-between transition hover:text-white hover:duration-500 hover:scale-110"
+              className="underline sm:no-underline flex justify-between transition hover:text-white hover:duration-500 hover:scale-110"
               // className="flex justify-between transition hover:rotate-6 hover:text-white hover:-translate-y-10 hover:-translate-x-10 hover:duration-500 hover:scale-110 hover:blur-none"
               href="tel:+64272545605"
               target="_blank"
@@ -51,7 +51,7 @@ export default function Home() {
             </a>
           </div>
           <div className="flex justify-between">
-            <a
+          <a
               className="underline sm:no-underline transition hover:text-white hover:duration-500 hover:scale-110 hover:blur-none"
               onMouseEnter={hover}
               onMouseOut={unhover}
@@ -59,6 +59,15 @@ export default function Home() {
               target="_blank"
             >
               <p>Email</p>
+            </a>
+            <a
+              className="underline sm:no-underline transition hover:text-white hover:duration-500 hover:scale-110 hover:blur-none"
+              onMouseEnter={hover}
+              onMouseOut={unhover}
+              href="/Louis-CV.pdf"
+              download
+            >
+              <p>CV</p>
             </a>
             <a
               className="underline sm:no-underline transition hover:text-white hover:duration-500 hover:scale-110 hover:blur-none"
