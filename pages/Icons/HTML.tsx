@@ -1,6 +1,6 @@
 import { SiHtml5 } from "@react-icons/all-files/si/SiHtml5";
 
-export default function ReactNative() {
+export default function HTML() {
     return (
         <div className="flex flex-col place-items-center w-32 border rounded-lg p-2 bg-gray-900 m-1">
         <SiHtml5 size="5rem" />

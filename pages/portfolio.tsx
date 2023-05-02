@@ -8,11 +8,12 @@ import Redux from './Icons/Redux'
 import Express from './Icons/Express'
 import PostgreSQL from './Icons/PostgreSQL'
 import Auth0 from './Icons/Auth0'
-import SQLite3 from './Icons/SQLite3'
+import SQLite from './Icons/SQLite'
 import Tailwind from './Icons/Tailwind'
 import Next from './Icons/Next'
 import Expo from './Icons/Expo'
 import Firebase from './Icons/Firebase'
+import Vercel from './Icons/Vercel'
 
 const courier = Courier_Prime({
   subsets: ['latin'],
@@ -63,11 +64,11 @@ export default function Portfolio() {
             <Express />
             <PostgreSQL />
             <Auth0 />
-            <SQLite3 />
+            <SQLite />
             <Tailwind />
             <Next />
             <Expo />
-            <Firebase />
+            <Vercel />
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat, vero sapiente suscipit veritatis error alias eligendi beatae dolor. Voluptatem placeat dolorum sint rerum eveniet dolore vitae unde esse eligendi.
