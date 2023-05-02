@@ -1,5 +1,6 @@
 import { Courier_Prime } from 'next/font/google'
 import { useEffect, useState } from 'react'
+import { IoMdArrowDown } from "@react-icons/all-files/io/IoMdArrowDown";
 import Nav from './Icons/Nav'
 import React from './Icons/React'
 import ReactNative from './Icons/ReactNative'
@@ -37,10 +38,21 @@ export default function Portfolio() {
     >
       <Nav />
       <div className="flex flex-col snap-y snap-mandatory h-screen overflow-x-hidden">
+      <div className="snap-start shrink-0 grid h-screen place-items-center">
+          <h1 className="uppercase text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl">
+            What&apos;s that? 
+          </h1>
+          <div>
+          <IoMdArrowDown className="animate-bounce h-10 w-full"  />
+          </div>
+        </div>
         <div className="snap-start shrink-0 grid h-screen place-items-center">
           <h1 className="uppercase text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl">
             Pingpong
           </h1>
+          <p>
+            Title, Date, Description, Tech, Reflections
+          </p>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore molestiae quisquam adipisci velit laborum magni id. Vitae, odit excepturi aut, officiis odio corporis libero cum animi minus facilis numquam doloremque.
           </p>
