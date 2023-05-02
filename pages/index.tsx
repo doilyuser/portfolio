@@ -40,7 +40,7 @@ export default function Home() {
               onMouseEnter={hover}
               onMouseOut={unhover}
               className="underline sm:no-underline flex justify-between transition hover:text-white hover:duration-500 hover:scale-110"
-              // className="flex justify-between transition hover:rotate-6 hover:text-white hover:-translate-y-10 hover:-translate-x-10 hover:duration-500 hover:scale-110"
+              // className="flex justify-between transition hover:rotate-6 hover:text-white hover:-translate-y-10 hover:-translate-x-10 hover:duration-500 hover:scale-110 hover:blur-none"
               href="tel:+64272545605"
               target="_blank"
             >
@@ -52,7 +52,7 @@ export default function Home() {
           </div>
           <div className="flex justify-between">
             <a
-              className="underline sm:no-underline transition hover:text-white hover:duration-500 hover:scale-110"
+              className="underline sm:no-underline transition hover:text-white hover:duration-500 hover:scale-110 hover:blur-none"
               onMouseEnter={hover}
               onMouseOut={unhover}
               href="mailto:louisalexanderdyer@gmail.com"
@@ -61,7 +61,7 @@ export default function Home() {
               <p>Email</p>
             </a>
             <a
-              className="underline sm:no-underline transition hover:text-white hover:duration-500 hover:scale-110"
+              className="underline sm:no-underline transition hover:text-white hover:duration-500 hover:scale-110 hover:blur-none"
               onMouseEnter={hover}
               onMouseOut={unhover}
               href="https://www.linkedin.com/in/louisdyer/"
@@ -72,7 +72,7 @@ export default function Home() {
           </div>
           <div className="flex justify-between">
             <a
-              className="underline sm:no-underline transition hover:text-white hover:duration-500 hover:scale-110"
+              className="underline sm:no-underline transition hover:text-white hover:duration-500 hover:scale-110 hover:blur-none"
               onMouseEnter={hover}
               onMouseOut={unhover}
               href="https://github.com/doilyuser"
@@ -82,7 +82,7 @@ export default function Home() {
             </a>
             <p>&nbsp;</p>
             <Link
-              className="underline sm:no-underline transition hover:text-white hover:duration-500 hover:scale-110"
+              className="underline sm:no-underline transition hover:text-white hover:duration-500 hover:scale-110 hover:blur-none"
               onMouseEnter={hover}
               onMouseOut={unhover}
               href="/portfolio"
