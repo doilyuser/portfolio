@@ -51,7 +51,7 @@ export default function Portfolio() {
           data-aos="fade-up"
           className="px-32 my-32 text-base pt-6 pb-6 overflow-y-scroll scrollbar-hide"
         ></div> */}
-        <div className="flex flex-col snap-y snap-mandatory h-screen overflow-x-hidden">
+        <div className="">
           <PortfolioSplash />
           <PortfolioArticle />
           <PingpongArticle />
