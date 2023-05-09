@@ -2,6 +2,8 @@ import { Courier_Prime } from 'next/font/google'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
+import { IoMdArrowDown } from '@react-icons/all-files/io/IoMdArrowDown'
+import PortfolioArticle from './Components/PortfolioArticle'
 
 const courier = Courier_Prime({
   subsets: ['latin'],
@@ -107,7 +109,9 @@ export default function Home() {
               </Link>
             </div>
           </div>
+          <IoMdArrowDown className="absolute bottom-0 animate-bounce h-10 sm:h-12 md:h-14 lg:h-16 xl:h-24 w-full" />
         </div>
+        <PortfolioArticle />
       </main>
     </>
   )
