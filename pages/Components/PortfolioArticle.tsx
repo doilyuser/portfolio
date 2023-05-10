@@ -12,12 +12,12 @@ const courierBold = Courier_Prime({
 export default function PortfolioArticle() {
   return (
     <>
-      <div className="snap-start shrink-0 grid h-screen">
-        <div className="flex flex-col h-full justify-center place-items-center">
-          <div className="flex flex-col w-screen md:w-4/6 justify-center place-items-center">
-            <h2 className="pt-[50vw] uppercase text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl justify-center place-items-center">
+      <div className="">
+        <div className="">
+          <div className="">
+            <h1 className="pt-[50vw] text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl uppercase">
               Portfolio
-            </h2>
+            </h1>
             <p className="text-2xl">
               <span className={`${courierBold.className}`}>28.04.23</span>
             </p>
