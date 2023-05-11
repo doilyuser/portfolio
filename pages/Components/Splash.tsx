@@ -43,12 +43,12 @@ export default function Splash() {
               href="tel:+64272545605"
               target="_blank"
             >
-              <div className="flex w-full">
+              <p className="flex justify-between w-full">
                 <span onMouseEnter={hover}>+64</span>
                 <span onMouseEnter={hover}>27</span>
                 <span onMouseEnter={hover}>254</span>
                 <span onMouseEnter={hover}>5605</span>
-              </div>
+              </p>
             </a>
           </div>
           <div className="flex justify-between">
