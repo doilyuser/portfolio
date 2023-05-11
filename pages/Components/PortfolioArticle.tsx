@@ -11,7 +11,7 @@ const courierBold = Courier_Prime({
 
 export default function PortfolioArticle() {
   return (
-    <div className="">
+    <div className="grid justify-items-start w-8/12">
       <h1 className="pt-[50vw] text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl uppercase">
         Portfolio
       </h1>
@@ -43,8 +43,8 @@ export default function PortfolioArticle() {
         feel I&apos;ve made any inroads with Next.js, perhaps that should be my
         &quot;next&quot; adventure.
       </p>
-      <div className="flex flex-row justify-center text-lg p-1 md:pt-6 pb-6 w-4/6 underline">
-        <a className="mx-6" href="https://github.com/doilyuser/portfolio">
+      <div className="underline hover:no-underline">
+        <a className="" href="https://github.com/doilyuser/portfolio">
           <p>Github</p>
         </a>
       </div>

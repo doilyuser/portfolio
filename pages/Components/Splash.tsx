@@ -36,7 +36,7 @@ export default function Splash() {
           <div>
             <a
               onMouseOut={unhover}
-              className="group underline sm:no-underline transition hover:text-white hover:duration-500"
+              className="group underline hover:no-underline sm:no-underline transition hover:text-white hover:duration-500"
               href="tel:+64272545605"
               target="_blank"
             >
@@ -50,7 +50,7 @@ export default function Splash() {
           </div>
           <div className="flex justify-between">
             <a
-              className="underline sm:no-underline transition hover:text-white hover:duration-500"
+              className="underline hover:no-underline sm:no-underline transition hover:text-white hover:duration-500"
               onMouseEnter={hover}
               onMouseOut={unhover}
               href="mailto:louisalexanderdyer@gmail.com"
@@ -59,7 +59,7 @@ export default function Splash() {
               <p>Email</p>
             </a>
             <a
-              className="underline sm:no-underline transition hover:text-white hover:duration-500"
+              className="underline hover:no-underline sm:no-underline transition hover:text-white hover:duration-500"
               onMouseEnter={hover}
               onMouseOut={unhover}
               href="https://www.linkedin.com/in/louisdyer/"
