@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Nav from './Components/Nav'
-import PortfolioSplash from './Components/PortfolioSplash'
 import PortfolioArticle from './Components/PortfolioArticle'
 import PingpongArticle from './Components/PingpongArticle'
 import MoneyArticle from './Components/MoneyArticle'
@@ -50,7 +49,6 @@ export default function Portfolio() {
           className="px-32 my-32 text-base pt-6 pb-6 overflow-y-scroll scrollbar-hide"
         ></div> */}
         <div className="">
-          <PortfolioSplash />
           <PortfolioArticle />
           <PingpongArticle />
           <MoneyArticle />

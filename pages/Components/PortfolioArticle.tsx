@@ -1,4 +1,9 @@
 import { Courier_Prime } from 'next/font/google'
+import { useEffect, useState } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+//icons
 import React from '../Icons/React'
 import Tailwind from '../Icons/Tailwind'
 import Next from '../Icons/Next'
@@ -10,11 +15,24 @@ const courierBold = Courier_Prime({
 })
 
 export default function PortfolioArticle() {
+  const [color, setColor] = useState('text-white')
+
+  useEffect(() => {
+    AOS.init()
+  }, [color])
+
+  const hover = () => {
+    setColor('text-gray-800')
+  }
+
+  const unhover = () => {
+    setColor('text-white')
+  }
   return (
     <div className="w-full flex flex-col justify-center place-items-center md:grid md:justify-items-start md:w-4/5 lg:w-3/5 2xl:w-2/5">
       {/* <div className="grid pl-[30vw] justify-items-end"> */}
-      <div>
-        <h1 className="pt-96 text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl xl:pt-60 uppercase">
+      <div data-aos="fade-right" data-aos-offset="500">
+        <h1 className="pt-40 text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl xl:pt-60 uppercase">
           Portfolio
         </h1>
         <p
@@ -23,7 +41,11 @@ export default function PortfolioArticle() {
           28.04.23
         </p>
       </div>
-      <p className="text-base py-20">
+      <p
+        data-aos="fade-right"
+        data-aos-offset="500"
+        className="text-base py-20"
+      >
         <span className={`${courierBold.className}`}>Description:</span> My
         final task at Dev Academy was to create and deploy this website. A place
         to showcase my work as I turn my eye to employment. I took this as an
@@ -31,13 +53,17 @@ export default function PortfolioArticle() {
         Next.js & deploying with Vercel. Isn&apos;t that what all the cool kids
         are doing these days?
       </p>
-      <div className="flex py-20">
+      <div data-aos="fade-right" data-aos-offset="500" className="flex py-20">
         <React />
         <Tailwind />
         <Next />
         <Vercel />
       </div>
-      <p className="text-base py-20">
+      <p
+        data-aos="fade-right"
+        data-aos-offset="500"
+        className="text-base py-20"
+      >
         <span className={`${courierBold.className}`}>Reflections:</span> Coding
         without the structure of Dev Academy around is a lot harder. Both to
         maintain a schedule and focus on the MVP. More than a few times I got
@@ -48,8 +74,12 @@ export default function PortfolioArticle() {
         feel I&apos;ve made any inroads with Next.js, perhaps that should be my
         &quot;next&quot; adventure.
       </p>
-      <div className="underline hover:no-underline py-20">
-        <a className="" href="https://github.com/doilyuser/portfolio">
+      <div
+        data-aos="fade-right"
+        data-aos-offset="500"
+        className="underline hover:no-underline py-20"
+      >
+        <a href="https://github.com/doilyuser/portfolio">
           <p>Github</p>
         </a>
       </div>

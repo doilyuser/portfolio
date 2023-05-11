@@ -20,6 +20,9 @@ export default function Home() {
         <div className="flex justify-center">
           <div className="w-full md:w-11/12 lg:w-10/12 2xl:w-9/12">
             <PortfolioArticle />
+            <div className="pt-[80vw] invisible">
+              This is just here for the animations lol, will fix later
+            </div>
           </div>
         </div>
       </main>
