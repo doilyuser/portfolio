@@ -11,12 +11,13 @@ const courier = Courier_Prime({
 export default function Home() {
   return (
     <>
+      {/* 640px 768px 1024px 1280px 1536px tailwind default breakpoints */}
       <Header />
-      <main
-        className={`${courier.className} transition duration-500 text-white bg-black`}
-      >
+      <main className={`${courier.className} text-white bg-zinc-950`}>
         <Splash />
-        {/* <PortfolioArticle /> */}
+        <div className="w-screen sm: md: lg: xl: 2xl:">
+          <PortfolioArticle />
+        </div>
       </main>
     </>
   )

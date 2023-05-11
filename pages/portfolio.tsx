@@ -40,9 +40,7 @@ export default function Portfolio() {
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <div
-        className={`${courier.className} transition duration-500 ${color} bg-black`}
-      >
+      <div className={`${courier.className} transition duration-500 ${color}`}>
         <Nav />
         {/* First object needs padding
         <div className="pt-[50vh]"></div>

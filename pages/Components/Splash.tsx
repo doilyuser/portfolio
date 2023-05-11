@@ -21,9 +21,7 @@ export default function Splash() {
   }
 
   return (
-    <div
-      className={`${courier.className} transition duration-500 ${color} bg-black`}
-    >
+    <div className={`transition duration-500 ${color}`}>
       <div className="flex w-screen h-screen justify-center items-center uppercase">
         <div className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl uppercase">
           <div className="flex justify-between transition">
@@ -52,7 +50,7 @@ export default function Splash() {
           </div>
           <div className="flex justify-between">
             <a
-              className="underline sm:no-underline transition hover:text-white hover:duration-500 hover:blur-none"
+              className="underline sm:no-underline transition hover:text-white hover:duration-500"
               onMouseEnter={hover}
               onMouseOut={unhover}
               href="mailto:louisalexanderdyer@gmail.com"
@@ -61,7 +59,7 @@ export default function Splash() {
               <p>Email</p>
             </a>
             <a
-              className="underline sm:no-underline transition hover:text-white hover:duration-500 hover:blur-none"
+              className="underline sm:no-underline transition hover:text-white hover:duration-500"
               onMouseEnter={hover}
               onMouseOut={unhover}
               href="https://www.linkedin.com/in/louisdyer/"
