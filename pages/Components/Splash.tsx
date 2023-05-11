@@ -69,7 +69,7 @@ export default function Splash() {
             </a>
           </div>
         </div>
-        <IoMdArrowDown className="absolute bottom-0 animate-bounce h-10 sm:h-12 md:h-14 lg:h-16 xl:h-24 w-full" />
+        <IoMdArrowDown className="absolute bottom-4 animate-bounce w-auto h-10 sm:h-12 md:h-14 lg:h-16 xl:h-24" />
       </div>
     </div>
   )

@@ -5,9 +5,10 @@ import 'aos/dist/aos.css'
 
 //icons
 import React from '../Icons/React'
-import Tailwind from '../Icons/Tailwind'
-import Next from '../Icons/Next'
+import Express from '../Icons/Express'
+import ReactNative from '../Icons/ReactNative'
 import Vercel from '../Icons/Vercel'
+import PostgreSQL from '../Icons/PostgreSQL'
 
 const courierBold = Courier_Prime({
   subsets: ['latin'],
@@ -29,9 +30,9 @@ export default function PortfolioArticle() {
     setColor('text-white')
   }
   return (
-    <div className="w-full flex flex-col justify-center place-items-center md:grid md:justify-items-start md:w-4/5 lg:w-3/5 2xl:w-2/5">
+    <div className="w-full flex flex-col justify-center place-items-center md:grid md:justify-items-start sm:w-9/12 md:w-7/12 lg:w-8/12 2xl:w-9/12">
       {/* <div className="grid pl-[30vw] justify-items-end"> */}
-      <div data-aos="fade-right" data-aos-offset="500">
+      <div data-aos="fade-right" data-aos-offset="300">
         <h1 className="pt-40 text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl xl:pt-60 uppercase">
           Portfolio
         </h1>
@@ -43,7 +44,7 @@ export default function PortfolioArticle() {
       </div>
       <p
         data-aos="fade-right"
-        data-aos-offset="500"
+        data-aos-offset="300"
         className="text-base py-20"
       >
         <span className={`${courierBold.className}`}>Description:</span> My
@@ -53,15 +54,29 @@ export default function PortfolioArticle() {
         Next.js & deploying with Vercel. Isn&apos;t that what all the cool kids
         are doing these days?
       </p>
-      <div data-aos="fade-right" data-aos-offset="500" className="flex py-20">
-        <React />
-        <Tailwind />
-        <Next />
-        <Vercel />
+      <div className="w-full flex flex-wrap justify-center place-items-center py-20">
+        <div data-aos="fade-right" data-aos-offset="300">
+          <React />
+        </div>
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="100">
+          <ReactNative />
+        </div>
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="200">
+          <React />
+        </div>
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="300">
+          <PostgreSQL />
+        </div>
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="400">
+          <React />
+        </div>
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="500">
+          <ReactNative />
+        </div>
       </div>
       <p
         data-aos="fade-right"
-        data-aos-offset="500"
+        data-aos-offset="300"
         className="text-base py-20"
       >
         <span className={`${courierBold.className}`}>Reflections:</span> Coding
@@ -76,7 +91,7 @@ export default function PortfolioArticle() {
       </p>
       <div
         data-aos="fade-right"
-        data-aos-offset="500"
+        data-aos-offset="300"
         className="underline hover:no-underline py-20"
       >
         <a href="https://github.com/doilyuser/portfolio">
