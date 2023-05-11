@@ -1,6 +1,5 @@
 import { Courier_Prime } from 'next/font/google'
 import { useState, useEffect } from 'react'
-import Link from 'next/link'
 import { IoMdArrowDown } from '@react-icons/all-files/io/IoMdArrowDown'
 
 const courier = Courier_Prime({
@@ -65,40 +64,11 @@ export default function Splash() {
               className="underline sm:no-underline transition hover:text-white hover:duration-500 hover:blur-none"
               onMouseEnter={hover}
               onMouseOut={unhover}
-              href="/Louis-CV.pdf"
-              download
-            >
-              <p>CV</p>
-            </a>
-            <a
-              className="underline sm:no-underline transition hover:text-white hover:duration-500 hover:blur-none"
-              onMouseEnter={hover}
-              onMouseOut={unhover}
               href="https://www.linkedin.com/in/louisdyer/"
               target="_blank"
             >
               <p>LinkedIn</p>
             </a>
-          </div>
-          <div className="flex justify-between">
-            <a
-              className="underline sm:no-underline transition hover:text-white hover:duration-500 hover:blur-none"
-              onMouseEnter={hover}
-              onMouseOut={unhover}
-              href="https://github.com/doilyuser"
-              target="_blank"
-            >
-              <p>Github</p>
-            </a>
-            <p>&nbsp;</p>
-            <Link
-              className="underline sm:no-underline transition hover:text-white hover:duration-500 hover:blur-none"
-              onMouseEnter={hover}
-              onMouseOut={unhover}
-              href="/portfolio"
-            >
-              <p>Portfolio</p>
-            </Link>
           </div>
         </div>
         <IoMdArrowDown className="absolute bottom-0 animate-bounce h-10 sm:h-12 md:h-14 lg:h-16 xl:h-24 w-full" />

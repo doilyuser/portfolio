@@ -16,7 +16,7 @@ export default function Home() {
         className={`${courier.className} transition duration-500 text-white bg-black`}
       >
         <Splash />
-        <PortfolioArticle />
+        {/* <PortfolioArticle /> */}
       </main>
     </>
   )
