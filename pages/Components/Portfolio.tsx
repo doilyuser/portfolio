@@ -30,7 +30,7 @@ export default function PortfolioArticle() {
     setColor('text-white')
   }
   return (
-    <div className="w-full flex flex-col justify-center place-items-center md:grid md:justify-items-start sm:w-9/12 md:w-7/12 lg:w-8/12 2xl:w-9/12">
+    <div className="w-full flex flex-col justify-center place-items-center md:grid md:justify-items-start md:w-10/12 lg:w-8/12 xl: 2xl:w-6/12">
       {/* <div className="grid pl-[30vw] justify-items-end"> */}
       <div data-aos="fade-right" data-aos-offset="300">
         <h1 className="pt-40 text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl xl:pt-60 uppercase">
@@ -47,9 +47,9 @@ export default function PortfolioArticle() {
         data-aos-offset="300"
         className="text-base py-20"
       >
-        <span className={`${courierBold.className}`}>Description:</span> My
-        final task at Dev Academy was to create and deploy this website. A place
-        to showcase my work as I turn my eye to employment. I took this as an
+        <span className={`${courierBold.className}`}>Desc:</span> My final task
+        at Dev Academy was to create and deploy this website. A place to
+        showcase my work as I turn my eye to employment. I took this as an
         opportunity to fully modernize my stack by learning and adding Tailwind,
         Next.js & deploying with Vercel. Isn&apos;t that what all the cool kids
         are doing these days?
@@ -79,7 +79,7 @@ export default function PortfolioArticle() {
         data-aos-offset="300"
         className="text-base py-20"
       >
-        <span className={`${courierBold.className}`}>Reflections:</span> Coding
+        <span className={`${courierBold.className}`}>Retro:</span> Coding
         without the structure of Dev Academy around is a lot harder. Both to
         maintain a schedule and focus on the MVP. More than a few times I got
         invested in building a slick animation and lost sight of the assessment
