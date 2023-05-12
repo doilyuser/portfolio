@@ -92,16 +92,16 @@ export default function PortfolioArticle() {
       <div
         data-aos="fade-right"
         data-aos-offset="300"
-        className="w-full flex justify-around underline hover:no-underline sm:no-underline pt-20 pb-40"
+        className="w-full flex justify-around pt-20 pb-40"
       >
         <a
-          className="flex justify-center place-items-center border rounded-lg py-2 px-4"
+          className="flex justify-center place-items-center border rounded-lg py-2 px-4 underline hover:no-underline sm:no-underline sm:hover:underline"
           href="https://github.com/doilyuser/portfolio"
         >
           <p>View Code</p>
         </a>
         <a
-          className="flex justify-center place-items-center border rounded-lg py-2 px-4"
+          className="flex justify-center place-items-center border rounded-lg py-2 px-4 underline hover:no-underline sm:no-underline sm:hover:underline"
           href="https://louis.computer/"
           target="_blank"
         >
