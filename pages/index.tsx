@@ -21,7 +21,7 @@ export default function Home() {
       >
         <Splash />
         <div className="flex justify-center">
-          <div className="w-full md:w-11/12 lg:w-10/12 2xl:w-9/12">
+          <div className="w-11/12 lg:w-10/12 2xl:w-9/12">
             <Portfolio />
             <Pingpong />
             <ShowMeTheMoney />
