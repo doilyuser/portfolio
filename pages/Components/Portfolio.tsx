@@ -54,16 +54,16 @@ export default function PortfolioArticle() {
         are doing these days?
       </p>
       <div className="w-full flex flex-wrap justify-center place-items-center py-20">
-        <div data-aos="fade-right" data-aos-offset="300">
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="300">
           <React />
         </div>
-        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="100">
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="200">
           <Next />
         </div>
-        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="200">
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="100">
           <Tailwind />
         </div>
-        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="300">
+        <div data-aos="fade-right" data-aos-offset="300">
           <Vercel />
         </div>
       </div>

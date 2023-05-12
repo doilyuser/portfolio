@@ -55,22 +55,22 @@ export default function PortfolioArticle() {
         simulation of a real-world work force.
       </p>
       <div className="w-full flex flex-wrap justify-center place-items-center py-20">
-        <div data-aos="fade-right" data-aos-offset="300">
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="500">
           <TypeScript />
         </div>
-        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="100">
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="400">
           <React />
         </div>
-        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="200">
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="300">
           <Redux />
         </div>
-        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="300">
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="200">
           <Auth0 />
         </div>
-        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="300">
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="100">
           <Bulma />
         </div>
-        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="300">
+        <div data-aos="fade-right" data-aos-offset="300">
           <PostgreSQL />
         </div>
       </div>

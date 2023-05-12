@@ -31,7 +31,7 @@ export default function PortfolioArticle() {
   return (
     <div className="w-full flex flex-col justify-center place-items-center md:grid md:justify-items-start md:w-10/12 lg:w-8/12">
       {/* <div className="grid pl-[30vw] justify-items-end"> */}
-      <div data-aos="fade-right" data-aos-offset="300">
+      <div data-aos="fade-left" data-aos-offset="300">
         <h1 className="pt-40 text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl xl:pt-60 uppercase">
           Pingpong
         </h1>
@@ -41,11 +41,7 @@ export default function PortfolioArticle() {
           14.04.23
         </p>
       </div>
-      <p
-        data-aos="fade-right"
-        data-aos-offset="300"
-        className="text-base py-20"
-      >
+      <p data-aos="fade-left" data-aos-offset="300" className="text-base py-20">
         <span className={`${courierBold.className}`}>Desc:</span> Our
         &quot;Capstone&quot; or final project at Dev Academy. We were tasked
         with fully simulating the work environment, starting with pitches and
@@ -54,24 +50,20 @@ export default function PortfolioArticle() {
         decision threw more than a few hurdles.
       </p>
       <div className="w-full flex flex-wrap justify-center place-items-center py-20">
-        <div data-aos="fade-right" data-aos-offset="300">
+        <div data-aos="fade-left" data-aos-offset="300">
           <ReactNative />
         </div>
-        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="100">
+        <div data-aos="fade-left" data-aos-offset="300" data-aos-delay="100">
           <Redux />
         </div>
-        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="200">
+        <div data-aos="fade-left" data-aos-offset="300" data-aos-delay="200">
           <Expo />
         </div>
-        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="300">
+        <div data-aos="fade-left" data-aos-offset="300" data-aos-delay="300">
           <Firebase />
         </div>
       </div>
-      <p
-        data-aos="fade-right"
-        data-aos-offset="300"
-        className="text-base py-20"
-      >
+      <p data-aos="fade-left" data-aos-offset="300" className="text-base py-20">
         <span className={`${courierBold.className}`}>Retro:</span> Whilst I do
         not regret our decision to build a mobile app over a website, it proved
         to be challenging. Every line of code typed caused friction when we had
@@ -84,7 +76,7 @@ export default function PortfolioArticle() {
         cloud further.
       </p>
       <div
-        data-aos="fade-right"
+        data-aos="fade-left"
         data-aos-offset="300"
         className="w-full flex justify-around pt-20 pb-40"
       >
