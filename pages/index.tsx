@@ -2,6 +2,8 @@ import { Courier_Prime } from 'next/font/google'
 import Header from './Components/Header'
 import Splash from './Components/Splash'
 import Portfolio from './Components/Portfolio'
+import Pingpong from './Components/Pingpong'
+import ShowMeTheMoney from './Components/ShowMeTheMoney'
 
 const courier = Courier_Prime({
   subsets: ['latin'],
@@ -20,6 +22,8 @@ export default function Home() {
         <div className="flex justify-center">
           <div className="w-full md:w-11/12 lg:w-10/12 2xl:w-9/12">
             <Portfolio />
+            <Pingpong />
+            <ShowMeTheMoney />
             <div className="pt-[10vh] invisible">
               This is just here for the animations lol, will fix later
             </div>

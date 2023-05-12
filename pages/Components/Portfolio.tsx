@@ -5,10 +5,9 @@ import 'aos/dist/aos.css'
 
 //icons
 import React from '../Icons/React'
-import Express from '../Icons/Express'
-import ReactNative from '../Icons/ReactNative'
+import Next from '../Icons/Next'
+import Tailwind from '../Icons/Tailwind'
 import Vercel from '../Icons/Vercel'
-import PostgreSQL from '../Icons/PostgreSQL'
 
 const courierBold = Courier_Prime({
   subsets: ['latin'],
@@ -59,19 +58,13 @@ export default function PortfolioArticle() {
           <React />
         </div>
         <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="100">
-          <ReactNative />
+          <Next />
         </div>
         <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="200">
-          <React />
+          <Tailwind />
         </div>
         <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="300">
-          <PostgreSQL />
-        </div>
-        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="400">
-          <React />
-        </div>
-        <div data-aos="fade-right" data-aos-offset="300" data-aos-delay="500">
-          <ReactNative />
+          <Vercel />
         </div>
       </div>
       <p
