@@ -30,10 +30,10 @@ export default function PortfolioArticle() {
     setColor('text-white')
   }
   return (
-    <div className="w-full flex flex-col justify-center place-items-center md:grid md:justify-items-start md:w-10/12 lg:w-8/12 xl: 2xl:w-6/12">
+    <div className="w-full flex flex-col justify-center place-items-center md:grid md:justify-items-start md:w-10/12 lg:w-8/12">
       {/* <div className="grid pl-[30vw] justify-items-end"> */}
       <div data-aos="fade-right" data-aos-offset="300">
-        <h1 className="pt-40 text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl xl:pt-60 uppercase">
+        <h1 className="pt-80 text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl xl:pt-60 uppercase">
           Portfolio
         </h1>
         <p
@@ -92,10 +92,20 @@ export default function PortfolioArticle() {
       <div
         data-aos="fade-right"
         data-aos-offset="300"
-        className="underline hover:no-underline py-20"
+        className="w-full flex justify-around underline hover:no-underline sm:no-underline pt-20 pb-40"
       >
-        <a href="https://github.com/doilyuser/portfolio">
-          <p>Github</p>
+        <a
+          className="flex justify-center place-items-center border rounded-lg py-2 px-4"
+          href="https://github.com/doilyuser/portfolio"
+        >
+          <p>View Code</p>
+        </a>
+        <a
+          className="flex justify-center place-items-center border rounded-lg py-2 px-4"
+          href="https://louis.computer/"
+          target="_blank"
+        >
+          <p>View Live</p>
         </a>
       </div>
     </div>
