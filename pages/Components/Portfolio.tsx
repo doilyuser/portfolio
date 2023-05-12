@@ -44,7 +44,7 @@ export default function PortfolioArticle() {
       <p
         data-aos="fade-right"
         data-aos-offset="300"
-        className="text-base py-20"
+        className="text-base text-justify py-20"
       >
         <span className={`${courierBold.className}`}>Desc:</span> My final task
         at Dev Academy was to create and deploy this website. A place to
@@ -70,7 +70,7 @@ export default function PortfolioArticle() {
       <p
         data-aos="fade-right"
         data-aos-offset="300"
-        className="text-base py-20"
+        className="text-base text-justify py-20"
       >
         <span className={`${courierBold.className}`}>Retro:</span> Coding
         without the structure of Dev Academy around is a lot harder. Both to

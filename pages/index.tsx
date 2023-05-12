@@ -4,6 +4,7 @@ import Splash from './Components/Splash'
 import Portfolio from './Components/Portfolio'
 import Pingpong from './Components/Pingpong'
 import ShowMeTheMoney from './Components/ShowMeTheMoney'
+import OlderProjects from './Components/OlderProjects'
 
 const courier = Courier_Prime({
   subsets: ['latin'],
@@ -24,6 +25,7 @@ export default function Home() {
             <Portfolio />
             <Pingpong />
             <ShowMeTheMoney />
+            <OlderProjects />
             <div className="pt-[10vh] invisible">
               This is just here for the animations lol, will fix later
             </div>

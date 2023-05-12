@@ -46,7 +46,7 @@ export default function PortfolioArticle() {
       <p
         data-aos="fade-right"
         data-aos-offset="300"
-        className="text-base py-20"
+        className="text-base text-justify py-20"
       >
         <span className={`${courierBold.className}`}>Desc:</span> My first time
         coding for a real (fake) client and employing the principles of agile.
@@ -77,7 +77,7 @@ export default function PortfolioArticle() {
       <p
         data-aos="fade-right"
         data-aos-offset="300"
-        className="text-base py-20"
+        className="text-base text-justify py-20"
       >
         <span className={`${courierBold.className}`}>Retro:</span> Whilst we had
         all practiced giving actionable and specific feedback before, our
